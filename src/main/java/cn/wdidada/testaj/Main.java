@@ -1,6 +1,5 @@
-/**
- * Created by Spring on 2017/4/7.
- */
+package cn.wdidada.testaj;
+
 public class Main {
     public static void doSomething(int i){
         System.out.println("方法执行 i = " + i);

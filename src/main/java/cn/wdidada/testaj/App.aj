@@ -1,6 +1,5 @@
-/**
- * Created by Spring on 2017/4/7.
- */
+package cn.wdidada.testaj;
+
 public aspect App {
       /* pointcut HelloWorldPointCut() : call(* main(int));*/
     pointcut HelloWorldPointCut() : execution(* doSomething(int));
